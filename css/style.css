@@ -1,0 +1,256 @@
+* {
+  box-sizing: border-box;
+}
+
+.header-container {
+  background-color: #24527a;
+  color: white;
+}
+
+.brand-name {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  align-items: center;
+  word-spacing: 10px;
+  letter-spacing: 5px;
+}
+
+.login-form-container {
+  text-align: right;
+}
+
+#category-drop-down {
+  width: 200px;
+}
+
+.column1 {
+  float: left;
+  padding: 10px;
+}
+
+.left {
+  width: 20%;
+}
+
+.middle {
+  width: 60%;
+}
+
+.right {
+  width: 20%;
+}
+
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 50%
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card {
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);
+  width: 450px;
+  height: 600px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  margin-bottom: 55px;
+}
+
+#zoom:hover {
+  transition-duration: 300ms;
+  transform: scale(1.1);
+}
+
+input[type=submit],
+input[type=reset] {
+  border: wheat;
+  background-color: white;
+  text-align: center;
+  padding: 3px;
+  display: inline-block;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.category-drop-down {
+  text-align: center;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+  padding-top: 20ox;
+}
+
+.button1 {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  -webkit-transition-duration: 0.4s;
+  /* Safari */
+  transition-duration: 0.4s;
+}
+
+.button1:hover {
+  background-color: rgb(0, 132, 255);
+  /* Green */
+  color: white;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+/* The CSS for footer is not working*/
+footer {
+  text-align: left;
+  background-color: #24527a;
+  color: white;
+  padding-left: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+/*
+* Added CSS for the slideshow
+*/
+* {
+  box-sizing: border-box
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+/*.boseSlides {
+  display: none;
+}*/
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
